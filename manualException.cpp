@@ -7,7 +7,9 @@ int main() {
         throw 0,5; // melemparkan integer maka
         cout << "Pernyataan tidak akan dieksekusi" << endl;
     }
-    
+    catch (int a) {
+        // stok ini akan dieksekusi
+        cout << "Pengecualian akan dieksekusi" << endl;
     }
     
 }
